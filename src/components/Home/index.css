@@ -1,0 +1,103 @@
+/* Write your CSS code here */
+
+@media screen and (max-width: 768px) {
+  .image-cloth {
+    height: 0px;
+  }
+  .image-cloth-new {
+    height: 200px;
+  }
+
+  .home-main-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    min-height: 100vh;
+    width: 100%;
+  }
+  .mini-con {
+    width: 100%;
+  }
+
+  .description {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .shopNow-button {
+    background-color: #0b69ff;
+    border: none;
+    outline: none;
+    height: 30px;
+    color: white;
+  }
+  .imga-con {
+    text-align: center;
+    width: 100%;
+  }
+  .clothes-heading {
+    font-family: roboto;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .description {
+    font-family: roboto;
+    color: #64748b;
+  }
+  .shopNow-button {
+    width: 60%;
+  }
+  .btn-con {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .image-cloth {
+    height: 400px;
+  }
+  .image-cloth-new {
+    height: 0px;
+  }
+  .home-main-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  .mini-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  .description-con {
+    width: 45%;
+    margin-right: 5%;
+  }
+
+  .shopNow-button {
+    background-color: #0b69ff;
+    border: none;
+    outline: none;
+    height: 30px;
+    color: white;
+  }
+
+  .clothes-heading {
+    font-family: roboto;
+    font-weight: 700;
+  }
+
+  .description {
+    font-family: roboto;
+    color: #64748b;
+  }
+}
